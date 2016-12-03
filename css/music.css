@@ -32,7 +32,7 @@ a{
 }
 /*****************page****************/
 
-.gpage2{
+.gpage{
 background:url(../img/bg2.png);
 }
 .gpage{
@@ -61,7 +61,7 @@ background:url(../img/bg2.png);
     position: absolute;
     left:0;right: 0;
     margin: 0 auto;
-    top:0.3rem;
+    top:1rem;
     opacity: 0;
     transition:all 1s ease;
 }
@@ -86,7 +86,7 @@ background:url(../img/bg2.png);
     margin: 0 auto;
     width: 4.22rem;
     height: 7.5rem;
-    background:url(../img/phone.png);
+    background:url(../img/phone1.png);
     -webkit-background-size:cover;
     background-size:cover;
     background-repeat: no-repeat;
@@ -95,74 +95,4 @@ background:url(../img/bg2.png);
 }
 .swiper-slide-active .phonebg{top: 0.15rem;opacity: 1;transition-delay: 1.4s;}
 
-.page21{
-    position: absolute;
-    left:0;right: 0;
-    top:2.2rem;
-    margin: 0 auto;
-    width:2.14rem;
-    height: 3.88rem;
-    background:url(../img/page21.png);
-    -webkit-background-size:cover;
-    background-size:cover;
-    background-repeat: no-repeat;
-    opacity: 0;
-    transition:all .6s ease;
-}
-.swiper-slide-active .page21{opacity: 1;transition-delay: 1.4s;}
-
-.page22{
-    position: absolute;
-    left:0.1rem;
-    top:0rem;
-    width:0.6rem;
-    height: 0.6rem;
-    background:url(../img/page22.png);
-    -webkit-background-size:cover;
-    background-size:cover;
-    background-repeat: no-repeat;
-    opacity: 0;
-    -webkit-transform:scale(0.5, 0.5);
-    transform:scale(0.5, 0.5);
-    transition:all 1s ease;
-}
-.swiper-slide-active .page22{
-    left:-0.5rem;top:0.18rem;-webkit-transform:scale(1, 1); transform:scale(1, 1);opacity: 1;transition-delay: 5s;}
-
-.page21_shou{
-    position: absolute;
-    left:0.15rem;
-    top:3.6rem;
-    font-size: 0.35em;
-    color: rgba(0,0,0,0.7);
-    opacity:0;
-    -webkit-transform:scale(0.7, 0.7); transform:scale(0.7, 0.7);
-    animation: shou 2s ease 3s  forwards;;
-    opacity: 0;
-}
-@keyframes shou {
-    0%{
-        -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5);
-        opacity: 1;
-    }
-    20%{
-        -webkit-transform:scale(1, 1);opacity:1; transform:scale(1, 1);
-        opacity: 1;
-    }
-    40%{
-        left:0.3rem;top:0.2rem;
-        -webkit-transform:scale(1, 1);opacity:1; transform:scale(1, 1);
-    }
-    80%{
-        left:0.3rem;top:0.2rem;
-        -webkit-transform:scale(1, 1);opacity:1; transform:scale(1, 1);
-    }
-    90%{
-        -webkit-transform:scale(0.7, 0.7);opacity:1; transform:scale(0.7, 0.7);
-    }
-    100%{
-        -webkit-transform:scale(1, 1);opacity:1; transform:scale(1, 1);
-        left:0.3rem;top:0.2rem;
-    }
-}
 
